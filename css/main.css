@@ -60,17 +60,21 @@ textarea {
 ***********************************************************************/
 body {
   background-image: url("../img/background.jpg");
+  background-size: cover;
+  height: 100vh;
   font-family: 'Overlock SC', cursive !important;
 }
 /********************Header***********************/
 header {
   position: fixed;
   width: 100%;
+  top: 0;
+  z-index: 1;
 }
 .jumbotron {
   background-color: rgb(255, 131, 170) !important;
   padding: 0 !important;
-
+  margin-bottom: 0 !important;
 }
 
 .container {
@@ -87,7 +91,7 @@ h1 {
 
 .navbar {
   background-color: white !important;
-  margin-top: 100px;
+
 }
 
 .nav-item {
@@ -95,15 +99,30 @@ h1 {
  }
 
 /*******************************Cartes article**********************************/
-h2 {
 
- margin-top: 200px;
 
+.btn {
+  background-color: rgb(255, 131, 170) !important;
+  border: none !important;
+}
+/**************************page article********************************************/
+#article {
+  margin-top: 50%;
+  display:block;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 200px;
 }
 
-section{
-  margin-top: 33%;
+#article p {
+  margin-top: 60px;
+}
+/*************************formulaire pour les commentaires**************************/
+#commentaires {
 
+  margin-top: 50px !important;
+  background-color: rgb(156, 237, 223);
+  padding: 20px;
 }
 
 
@@ -124,9 +143,20 @@ section{
 /**************************Header****************************************/
 .navbar {
   height: 55px;
+  margin-top: 0 !important;
 }
 
+section {
+  margin-top: 80%;
+}
 
+footer {
+  margin-top: 50px !important;
+}
+
+#article img {
+  width: 360px;
+}
 
 
 
@@ -148,6 +178,20 @@ h1 {
   font-size: 150px !important;
 }
 
+.navbar {
+
+}
+ section {
+   margin-top: 60%;
+ }
+
+ footer {
+   margin-top: 130px !important;
+ }
+
+ #article img {
+   width: 50%;
+ }
 }
 
 
@@ -157,7 +201,17 @@ h1 {
 ****************************************************************************/
 @media (min-width: 980px) {
 
+.navbar {
+  margin-top: 40px !important;
 
+}
+  section {
+    margin-top: 35% !important;
+  }
+
+#commentaires {
+  margin: 30%;
+}
 
 
 }
