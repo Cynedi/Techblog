@@ -125,6 +125,31 @@ h1 {
   padding: 20px;
 }
 
+/************************Page agenda *************************************************/
+
+.evenement {
+  display: flex;
+  flex-direction: column;
+
+
+  margin-bottom: 50px;
+}
+
+h3 {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.card {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+
+
+
 
 
 
@@ -158,7 +183,13 @@ footer {
   width: 360px;
 }
 
+.evenement img {
+  width: 360px;
+}
 
+.card {
+  width: 360px !important;
+}
 
 
 
@@ -211,6 +242,14 @@ h1 {
 
 #commentaires {
   margin: 30%;
+}
+
+.evenement img {
+  width: 643px;
+}
+
+.card {
+  width: 643px !important;
 }
 
 
