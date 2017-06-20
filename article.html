@@ -47,13 +47,11 @@
               <li class="nav-item">
                 <a class="nav-link" href="apropos.html">A PROPOS</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">CONTACT</a>
-              </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
               <input class="form-control mr-sm-2" type="text" placeholder="Search">
               <button class="btn" type="submit">OK</button>
+
             </form>
           </div>
         </nav>
@@ -61,10 +59,10 @@
       </header>
 
   <main>
-  <!--***************Descriptif des articles***************************-->
+  <!--***************Descriptif de l'article***************************-->
   <section id="article">
     <h2>Paris Retail Week 2017 : le programme des plénières en avant-première !</h2>
-      <span>Posté le()  par cindy <a href="">0 commentaires</a></span><br>
+      <span>Posté le()  par cindy <a href="#comments"> - 0 commentaires</a></span><br>
         <img src="img/img1.png" alt="image">
           <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer bibendum odio id lacus faucibus, vel consequat velit pharetra. Suspendisse molestie turpis et turpis gravida dapibus. Fusce egestas sodales tortor, rutrum varius nibh. Sed eu dapibus libero. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean fringilla nisl ultricies ullamcorper laoreet. Suspendisse eros ipsum, laoreet sed varius at, posuere ac nisi. In tempus, nunc sed vestibulum convallis, nunc augue aliquam sem, aliquam finibus dui erat maximus lacus. Nunc ac accumsan ligula. Nunc non ex dictum justo malesuada sagittis sed id massa. Duis imperdiet quis ligula sit amet ornare. Sed commodo, turpis ut gravida porta, urna nibh blandit nisl, in aliquam justo augue non nulla. Nulla blandit, sem ac dignissim semper, diam nisl tincidunt velit, sit amet venenatis erat massa auctor diam.
 
@@ -73,7 +71,17 @@ Aenean consectetur convallis magna, vitae aliquam diam tempor eu. Quisque id fin
 Integer non ipsum bibendum enim faucibus dapibus at id augue. Sed ullamcorper bibendum sollicitudin. Vestibulum nisi velit, posuere vitae erat in, consectetur blandit magna. Quisque gravida posuere nisl at consectetur. Duis congue orci hendrerit sem faucibus suscipit. Fusce at purus tempus, tempus tortor nec, lobortis neque. Sed quis mi congue, lacinia ex nec, eleifend felis. Ut eget dapibus lectus. Mauris ullamcorper hendrerit ultrices. Quisque ac euismod lacus, vitae posuere felis. In interdum porta egestas. Morbi commodo porta mi sed elementum. Vivamus finibus quam vitae risus lobortis, nec tempus metus euismod. Curabitur sodales orci in dolor efficitur, sed mollis urna accumsan. Praesent et orci enim. Proin et lorem felis. </p>
   </section>
 
-  <!--**************Partie commentaire**********************************-->
+<!--********************Commentaires****************************-->
+
+<div id="comments">
+  <h3>COMMENTAIRES</h3><br>
+  <span>Posté le --- par ---</span>
+  <p>Praesent id fringilla nisi. Donec cursus venenatis blandit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum finibus velit nec justo placerat porta. Maecenas at magna nec nibh feugiat bibendum. Donec ullamcorper augue dolor, id bibendum leo varius semper. Cras finibus, nisl et condimentum ullamcorper, augue lorem malesuada arcu, nec condimentum turpis ligula id libero. Curabitur efficitur auctor ante. </p>
+</div>
+
+
+  <!--**************Poster un commentaire**********************************-->
+
   <section id="commentaires">
     <h3>LAISSEZ VOTRE COMMENTAIRE</h3>
       <span>Votre adresse e.mail ne sera pas publiée</span>
@@ -95,7 +103,9 @@ Integer non ipsum bibendum enim faucibus dapibus at id augue. Sed ullamcorper bi
       <label for="site">SITE WEB</label>
       <input class="form-control" type="text">
       </div>
-      <button type="submit" class="btn">ENVOYER</button>
+      <button id="myBtn">ENVOYER</button>
+<!--*******************Evenement js quand on clique sur le bouton************************-->
+
     </form>
 
   </section>
@@ -143,7 +153,7 @@ Integer non ipsum bibendum enim faucibus dapibus at id augue. Sed ullamcorper bi
 
 
 
-
+              <script type="text/javascript" src="js/main.js"></script>
 
               <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
               <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
@@ -152,7 +162,7 @@ Integer non ipsum bibendum enim faucibus dapibus at id augue. Sed ullamcorper bi
               <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
               <script src="js/plugins.js"></script>
-              <script src="js/main.js"></script>
+
 
               <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
               <script>

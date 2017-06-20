@@ -98,13 +98,21 @@ h1 {
   margin-right: 30px;
  }
 
-/*******************************Cartes article**********************************/
+/*******************************Cartes Actualité**********************************/
 
 
 .btn {
   background-color: rgb(255, 131, 170) !important;
   border: none !important;
 }
+
+.post {
+  font-size: 12px;
+  color: grey;
+}
+
+
+
 /**************************page article********************************************/
 #article {
   margin-top: 50%;
@@ -114,9 +122,25 @@ h1 {
   padding-bottom: 200px;
 }
 
+#article a {
+  color: grey;
+}
+
 #article p {
   margin-top: 60px;
 }
+
+#comments {
+  background-color: white;
+  text-align: center;
+  width: 100%;
+}
+
+#comments h3 {
+  text-decoration: underline;
+}
+
+
 /*************************formulaire pour les commentaires**************************/
 #commentaires {
 
@@ -130,10 +154,10 @@ h1 {
 .evenement {
   display: flex;
   flex-direction: column;
-
-
   margin-bottom: 50px;
 }
+
+
 
 h3 {
   width: 100%;
@@ -141,14 +165,23 @@ h3 {
   text-align: center;
 }
 
-.card {
+.agenda {
   width: 100%;
   margin: auto;
   text-align: center;
 }
 
+/**************************Table interative***********************************/
 
+#table {
+  margin-top: 300px;
+}
 
+/***************************Page A propos********************************/
+
+#apropos {
+
+}
 
 
 
@@ -171,24 +204,52 @@ h3 {
   margin-top: 0 !important;
 }
 
+/********************Page Actualité*********************************/
 section {
   margin-top: 80%;
 }
 
-footer {
-  margin-top: 50px !important;
-}
 
+/****************Page Article*************************************/
 #article img {
   width: 360px;
 }
 
+/**********************Page Agenda*******************************/
 .evenement img {
   width: 360px;
 }
 
-.card {
+.agenda {
   width: 360px !important;
+}
+
+/*******************Page A propos*********************************/
+
+#social img {
+  width: 50px;
+  height: 50px;
+
+}
+
+#social {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+}
+
+#social div {
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+/******************Footer**********************************/
+footer {
+  margin-top: 50px !important;
 }
 
 
@@ -209,20 +270,43 @@ h1 {
   font-size: 150px !important;
 }
 
-.navbar {
 
-}
+/************************Page actualité************************************/
+
  section {
    margin-top: 60%;
  }
 
+ /*************************page Article*************************************/
+  #article img {
+    width: 50%;
+  }
+
+
+/*********************page A propos***********************************/
+#social {
+  display: inline-block;
+  margin-left: 9%;
+}
+
+#social div {
+  display: inline-block;
+  margin: 20px;
+}
+#social img {
+  width: 100px;
+  height: 100px;
+}
+ * {
+   border: 1px solid black;
+ }
+
+/*************************Footer****************************************/
  footer {
    margin-top: 130px !important;
  }
 
- #article img {
-   width: 50%;
- }
+
 }
 
 
@@ -232,25 +316,43 @@ h1 {
 ****************************************************************************/
 @media (min-width: 980px) {
 
+/***************Header************************************/
 .navbar {
   margin-top: 40px !important;
 
 }
+
+/*****************Page actualité**********************************/
   section {
-    margin-top: 35% !important;
+    margin-top: 25% !important;
+
   }
 
+
+
+/****************Page Articles***************************************/
 #commentaires {
   margin: 30%;
 }
 
+#article h2 {
+  padding-top: 40px;
+}
+
+/********************Page Agenda**************************************/
 .evenement img {
   width: 643px;
 }
 
-.card {
+.agenda {
   width: 643px !important;
+  margin-left: 320px !important;
+  margin-top: 30px;
+
 }
+
+
+
 
 
 }
