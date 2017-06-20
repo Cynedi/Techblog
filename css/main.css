@@ -179,11 +179,26 @@ h3 {
 
 /***************************Page A propos********************************/
 
-#apropos {
+#nous {
+  margin-top: 20px;
 
 }
 
+#adress {
+  width: 100%;
+  text-align: center;
+  background-color: rgb(247, 139, 135);
+  padding: 50px;
+  color: white;
 
+}
+
+#adress h3{
+  text-decoration: underline;
+
+}
+
+* {border: 1px solid black;}
 
 
 
@@ -351,7 +366,15 @@ h1 {
 
 }
 
+/******************page A propos**************************************/
 
+#nous {
+  margin-top: 50px !important;
+}
+
+#adress {
+  font-size: 30px;
+}
 
 
 
