@@ -173,9 +173,7 @@ h3 {
 
 /**************************Table interative***********************************/
 
-#table {
-  margin-top: 300px;
-}
+
 
 /***************************Page A propos********************************/
 
@@ -193,12 +191,40 @@ h3 {
 
 }
 
-#adress h3{
+#nous h3{
   text-decoration: underline;
+  margin-bottom: 25px;
+}
+
+#equipe {
+  background-color: rgb(157, 238, 228);
+  text-align: center;
+  padding: 50px;
+
+}
+ #equipe div {
+   margin-top: 25px;
+ }
+
+/**************************Footer**********************************/
+
+#top {
+  display: inline-block;
+}
+
+#top a {
+  color: black;
+  text-decoration: none;
 
 }
 
-* {border: 1px solid black;}
+#bottom {
+  display: inline-block;
+}
+ footer {
+   text-align: center;
+   background-color: rgb(255, 131, 170);
+ }
 
 
 
@@ -223,7 +249,13 @@ h3 {
 section {
   margin-top: 80%;
 }
+#jobs {
+   display: none;
+ }
 
+aside h3 {
+  display: none;
+}
 
 /****************Page Article*************************************/
 #article img {
@@ -260,6 +292,10 @@ section {
   text-align: center;
 }
 
+#equipe img {
+  width: 100px;
+  height: 100px;
+}
 
 
 /******************Footer**********************************/
@@ -292,6 +328,14 @@ h1 {
    margin-top: 60%;
  }
 
+#jobs {
+   display: none;
+ }
+
+aside h3 {
+   display: none;
+ }
+
  /*************************page Article*************************************/
   #article img {
     width: 50%;
@@ -312,9 +356,22 @@ h1 {
   width: 100px;
   height: 100px;
 }
- * {
-   border: 1px solid black;
- }
+
+#equipe img {
+  width: 200px;
+  height: 200px;
+}
+
+#employé {
+  display: flex;
+  justify-content: space-around
+}
+
+#employé div {
+  display: flex;
+}
+
+
 
 /*************************Footer****************************************/
  footer {
@@ -339,11 +396,50 @@ h1 {
 
 /*****************Page actualité**********************************/
   section {
-    margin-top: 25% !important;
+    margin-top: 35% !important;
 
   }
 
+#actualite {
+  margin-left: 80px;
+  margin-right: 80px;
 
+}
+
+.card {
+  height: 530px !important;
+}
+
+/**********************Aside digital jobs*******************************/
+aside {
+  background-color: white;
+  margin-top: 50px;
+}
+
+#jobs {
+
+  display: flex;
+  margin-left: 140px;
+}
+
+aside h3 {
+  display: block;
+  background-color: rgb(157, 238, 228);
+  color: white;
+  padding: 5px;
+}
+
+#jobs span {
+  display: flex;
+  font-size: 15px;
+  margin-right: 50px;
+  margin-left: -30px;
+  text-align: center;
+}
+
+#jobs img {
+
+}
 
 /****************Page Articles***************************************/
 #commentaires {
@@ -376,7 +472,14 @@ h1 {
   font-size: 30px;
 }
 
+/******************footer*************************************************/
 
+#top {
+  margin-right: 40px;
+}
+ #top a {
+   margin: 20px;
+ }
 
 }
 
