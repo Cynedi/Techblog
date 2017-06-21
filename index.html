@@ -19,12 +19,42 @@
 
       <header>
 
+<!--*************************Onglets interactif***********************************-->
+
+        <div class="btn">
+         <span onclick="changeOnglet(0)">Catégorie</span>
+         <span onclick="changeOnglet(1)">Partenaires</span>
+         <span onclick="changeOnglet(2)">Métier</span>
+        </div>
+
+        <div class="ct">
+           <li><a href="">Fun</a></li>
+           <li><a href="">Buzz</a></li>
+           <li><a href="">Innovation</a></li>
+           <li><a href="">Insolite</a></li>
+           <li><a href="">divers</a></li>
+        </div>
+
+        <div class="ct">
+           <li><a href="">Le journal de Mickey</a></li>
+           <li><a href="">Accenture Digital</a></li>
+           <li><a href="">Oxalide</a></li>
+           <li><a href="">Leboncoin</a></li>
+        </div>
+
+        <div class="ct">
+           <li><a href="">Offres d'emploi</a></li>
+           <li><a href="">Offres de stage</a></li>
+        </div>
+
+<!--***************************Jumbotron***************************************-->
+
         <div class="jumbotron jumbotron-fluid">
           <div class="container">
             <h1 class="display-3">HY! TECH</h1>
             <script>document.write(Date());</script>
           </div>
-        </div>
+        </div>-->
 
 <!--*************************NAVIGATION RESPONSIVE***********************************-->
         <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
@@ -57,16 +87,6 @@
 
       </header>
 
-<!--**********************table interactive avec onglets**********************************-->
-
-
-<!--*******************Contenu de chaque onglet*****************************************-->
-
-
-
-
-<!--************Table interactif avec onglet**********************-->
-
 
 
 <!--*********************Cartes de présentation des actualités***************************-->
@@ -75,8 +95,8 @@
         <section class="row">
 
         <div class="card col-12 col-md-6 col-lg-4 w-25 p-3";>
-          <img  id="img1" class="card-img-top" src="img/img1.png" alt="Paris retail" onmouseover="imgHover(this,1)" onemouseout="imgHover(this, 0)">
-          <p id="art1" onmouseover="imgHover(this, 1)" onmouseout="imgHover(this, 0)"></p>
+          <img  id="imgArticle" class="card-img-top" src="img/img1.png" alt="Paris retail" onmouseover="on(this)" onemouseout="off(this)">
+          <span id="alt" onmouseover="on(this)" onmouseout="off(this)"></span>
           <div class="card-block">
             <h4 class="card-title">Paris Retail Week 2017 : le programme des plénières en avant-première !</h4>
             <span class="post">Posté le 14 juin 2017 par Cindy</span>
@@ -142,6 +162,37 @@
 
       </main>
 
+      <!--*************************Onglets interactif***********************************-->
+            <section id="onglet">
+
+              <div class="btn">
+               <span onclick="changeOnglet(0)">Catégorie</span>
+               <span onclick="changeOnglet(1)">Partenaires</span>
+               <span onclick="changeOnglet(2)">Métier</span>
+              </div>
+
+              <div class="ct">
+                 <li><a href="">Fun</a></li>
+                 <li><a href="">Buzz</a></li>
+                 <li><a href="">Innovation</a></li>
+                 <li><a href="">Insolite</a></li>
+                 <li><a href="">divers</a></li>
+              </div>
+
+              <div class="ct">
+                 <li><a href="">Le journal de Mickey</a></li>
+                 <li><a href="">Accenture Digital</a></li>
+                 <li><a href="">Oxalide</a></li>
+                 <li><a href="">Leboncoin</a></li>
+              </div>
+
+              <div class="ct">
+                 <li><a href="">Offres d'emploi</a></li>
+                 <li><a href="">Offres de stage</a></li>
+              </div>
+
+            </section>
+
       <aside>
         <h3>DIGITAL JOBS</h3>
           <article id="jobs">
@@ -153,10 +204,6 @@
             <div class="emploi"><a href=""><img src="img/job1.jpg" alt="job" class="rounded-circle"></a><span>Directeur du planing</span></div>
             <div class="emploi"><a href=""><img src="img/job2.jpg" alt="job" class="rounded-circle"></a><span>Community Manager</span></div>
         </article>
-
-
-
-
 
       </aside>
 <!--***********************************Footer**********************************************-->

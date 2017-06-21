@@ -1,23 +1,40 @@
-//************Pop'up de confirmation de l'envoi quand on clique sur envoyer**************************//
+// //************Pop'up de confirmation de l'envoi quand on clique sur envoyer**************************//
 
 
-  document.getElementById("myBtn").addEventListener("click", function(){
-      alert("Confirmer l'envoi?");
-  });
-//************Table interactif avec onglet**********************//
-
-
+  //document.getElementById("myBtn").addEventListener("click", function(){
+  //     confirm ("Confirmer l'envoi?");
+  // });
 
 
 
-// function imgHover (one, two) {
-//   console.log(one);
-//   var art ="art" +one.id[3];
-//   var img = "img" + one.id[3];
-//   if (two ==1) {
-//     var alt = document.getElementById(img).alt;
-//     document.getElementById(art).innerHTML = alt;
-//   } else {
-//     document.getElementById(art).innerHTML = "";
-//   }
-// }
+//***************affichage ALT image*********************************//
+
+function on() {
+    var x= document.getElementById("imgArticle").alt;
+           document.getElementById("alt").innerHTML = x;
+}
+
+function off(){
+         document.getElementById("alt").innerHTML = "";
+}
+//************Onglet interatif**********************//
+
+var ct = document.getElementsByClassName("ct");
+
+ct[0].style.display = "block";
+ct[1].style.display = "none";
+ct[2].style.display = "none";
+
+function changeOnglet(index) {
+
+for (var i= 0; i< ct.length; i++) {
+
+  if (index === i) {
+    ct[i].style.display = "block";
+  }
+
+  else {
+    ct[i].style.display = "none";
+  }
+}
+}

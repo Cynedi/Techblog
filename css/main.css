@@ -238,7 +238,9 @@ h3 {
 
 /**********************MOBILE**********************************
 *********************************************************************/
-
+#onglet {
+  display: none;
+}
 /**************************Header****************************************/
 .navbar {
   height: 55px;
@@ -316,6 +318,10 @@ footer {
 ******************************TABLETTE*************************************/
 @media (min-width: 768px) {
 
+#onglet {
+  display: none !important;
+}
+
 /*******************************Header********************************************/
 h1 {
   font-size: 150px !important;
@@ -388,15 +394,33 @@ aside h3 {
 ****************************************************************************/
 @media (min-width: 980px) {
 
+/*****************Onglet interactif************************************/
+
+.ct {
+  background-color: white;
+
+}
+
+.ct a {
+  color:rgb(255, 131, 170);
+}
+
+.btn {
+  color: white;
+}
+
+.btn span {
+  margin: 10px;
+}
 /***************Header************************************/
 .navbar {
-  margin-top: 40px !important;
+  margin-top: 0 !important;
 
 }
 
 /*****************Page actualité**********************************/
-  section {
-    margin-top: 35% !important;
+section {
+  margin-top: 45% !important;
 
   }
 
