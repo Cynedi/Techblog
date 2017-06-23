@@ -238,9 +238,7 @@ h3 {
 
 /**********************MOBILE**********************************
 *********************************************************************/
-#onglet {
-  display: none;
-}
+
 /**************************Header****************************************/
 .navbar {
   height: 55px;
@@ -380,9 +378,7 @@ aside h3 {
 
 
 /*************************Footer****************************************/
- footer {
-   margin-top: 130px !important;
- }
+
 
 
 }
@@ -394,24 +390,7 @@ aside h3 {
 ****************************************************************************/
 @media (min-width: 980px) {
 
-/*****************Onglet interactif************************************/
 
-.ct {
-  background-color: white;
-
-}
-
-.ct a {
-  color:rgb(255, 131, 170);
-}
-
-.btn {
-  color: white;
-}
-
-.btn span {
-  margin: 10px;
-}
 /***************Header************************************/
 .navbar {
   margin-top: 0 !important;
@@ -420,7 +399,7 @@ aside h3 {
 
 /*****************Page actualité**********************************/
 section {
-  margin-top: 45% !important;
+  margin-top: 30% !important;
 
   }
 
@@ -434,16 +413,43 @@ section {
   height: 530px !important;
 }
 
+/*****************Onglet interactif************************************/
+.hidden-md-down {
+  margin-top: 40px !important;
+  background-color: rgb(255, 131, 170);
+}
+.ct {
+  background-color: white;
+  width: 100%;
+
+
+}
+
+.ct a {
+  color:rgb(255, 131, 170);
+  padding: 25px;
+}
+
+.btn {
+  color: white;
+
+}
+
+.btn span {
+  margin: 10px;
+  text-align: left;
+}
+
 /**********************Aside digital jobs*******************************/
 aside {
   background-color: white;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 #jobs {
 
   display: flex;
-  margin-left: 140px;
+
 }
 
 aside h3 {
@@ -456,12 +462,13 @@ aside h3 {
 #jobs span {
   display: flex;
   font-size: 15px;
-  margin-right: 50px;
-  margin-left: -30px;
+
   text-align: center;
 }
 
-#jobs img {
+#jobs div {
+margin-right: 100px;
+margin-left: 15px;
 
 }
 
